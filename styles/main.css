@@ -1,13 +1,49 @@
+/*
+@media screen and (min-width: 480px) {
+    body {
 
+    }
+}*/
 
-.form-item {
-  background-color:#5ba3d6;
-  color:white;
+body{
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
-
-input, textarea, select {
-  background-color: #5BA3D6;
-  color: white;
-  border: 1px solid white;
+.main-content{
+    width: 100%;
+    display: table;
 }
+
+.form-column{
+    height:100%;
+    display: table-cell;
+    width: 30%;
+    padding: 2.5%;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+.main-content, input, textarea, select{
+    background-color: #5ba3d6;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 7px;
+    margin: 10px auto;
+}
+
+select, input, textarea{
+    width:100%;
+        box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+    color:#2c6b98;
+    font-style: italic;
+    font-weight: bold;
+}
+/*
+#5ba3d6*/
