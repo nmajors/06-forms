@@ -1,0 +1,13 @@
+
+
+.form-item {
+  background-color:#5ba3d6;
+  color:white;
+}
+
+
+input, textarea, select {
+  background-color: #5BA3D6;
+  color: white;
+  border: 1px solid white;
+}
